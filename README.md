@@ -1,59 +1,43 @@
-Task Management System
+# Task Management System
 
-A Java-based project for managing tasks, demonstrating CRUD operations, database interaction, and basic application design. The system allows users to create, update, view, and delete tasks while showcasing clean code practices and persistence.
+This project demonstrates a simple Task Management application. It allows users to create, update, view, and delete tasks. The goal is to showcase CRUD operations and persistence in Java.
 
-📂 Repository Structure
+---
 
-TaskManagement/ — Core Java source code handling task entities, services, and business logic.
+## 📂 Repository Structure
+- `TaskManagement/` — Contains the Java source code (entities, services, controllers).  
+- `.idea/` — IDE configuration files (optional / for your environment).  
 
-resources/ — Configuration files (e.g., database connection details, SQL scripts if any).
+---
 
-.idea/ — IDE-related configuration files (optional, not required for running the project).
+## 🚀 Features
+- Create new tasks  
+- Update task details or status  
+- View all tasks or a specific task  
+- Delete tasks by ID  
 
-🚀 Features
+---
 
-Add new tasks with details (title, description, status, etc.)
+## 🛠️ Tech Stack & Dependencies
+- Java  
+- JDBC / Database  
+- Maven (build & dependency management)  
+- SQL  
 
-Update existing task details or status
+---
 
-View details of a specific task or list all tasks
-
-Delete tasks from the system
-
-Demonstrates end-to-end CRUD functionality in Java
-
-🛠️ Tech Stack & Dependencies
-
-Java
-
-JDBC / Database (configure with your DB credentials)
-
-Maven (for build and dependency management, if setup)
-
-SQL / Persistence layer for storing tasks
-
-⚙️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/saikrishnavelthapu543/TaskManagementSystem.git
-
-
-Configure database connection details in application.properties or directly in the code (URL, username, password).
-
-Build the project using Maven:
-
+## ⚙️ How to Run
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/saikrishnavelthapu543/TaskManagementSystem.git
+Configure the database connection (URL, username, password).
+Build the project with Maven:
 mvn clean install
+Run the main class to start the application.
 
+🔍 Usage Examples
 
-Run the application through your IDE or command line (java -jar target/*.jar).
-
-🔍 Example Usage
-
-Add a Task → Insert a new task with title & description
-
-View All Tasks → Retrieve a list of tasks from DB
-
-Update Task → Modify status/details of an existing task
-
-Delete Task → Remove task by ID
+Add a new task
+Get list of all tasks
+Update task details/status
+Delete a task
