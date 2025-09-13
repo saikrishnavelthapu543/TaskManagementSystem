@@ -30,14 +30,14 @@ This project demonstrates a simple Task Management application. It allows users 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/saikrishnavelthapu543/TaskManagementSystem.git
-Configure the database connection (URL, username, password).
-Build the project with Maven:
-mvn clean install
+Configure the database connection (URL, username, password).,
+Build the project with Maven:,
+mvn clean install,
 Run the main class to start the application.
 
 🔍 Usage Examples
 
-Add a new task
-Get list of all tasks
-Update task details/status
+Add a new task,
+Get list of all tasks,
+Update task details/status,
 Delete a task
